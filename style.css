@@ -1,0 +1,46 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: antiquewhite;
+}
+
+.page-container{
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+#cal{
+    transform: scale(0.5, 0.5);
+}
+
+header{
+    background-color: mediumpurple;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 15px;
+}
+
+header h1{
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+ul{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+ul li a{
+    color: blanchedalmond;
+    transition: 0.4s;
+}
+
+ul li a:hover{
+    color: yellow;
+}
